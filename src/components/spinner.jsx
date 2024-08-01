@@ -5,15 +5,15 @@ const override = {
     margin: '100px auto'
 }
 
-const spinner = ({loading}) => {
+const Spinner = ({loading}) => {
   return (
     <ClipLoader
         color='#4338ca'
         loading={loading}
-        cssOveride={override}
+        cssOverride={override}
         size={150}
     />
   )
 }
 
-export default spinner
+export default Spinner
